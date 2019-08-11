@@ -4,6 +4,7 @@ public class MagicTriangle {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
+      //  int[] arr=new int[n];
        // int n=5;// my test case no change
         int value=0;//my_inserted no change
         int  diff=0;
