@@ -49,6 +49,7 @@ class GFG
                 absent=absentvalue.longValue();
                // absent = repeated*(nwpro)/(pro);
             }
+
             else{
                 repeated=1;
                 absent=sum-1;
