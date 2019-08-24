@@ -40,7 +40,7 @@ public class MagicTriangle {
         }
         for (int j = 0; j < n; j++) {
             for (int k = 0; k <n ; k++) {
-                System.out.print(arr[j][k]+"       ");
+                System.out.print(arr[j][k]+"\t \t");
             }
             System.out.println();
             System.out.println();
