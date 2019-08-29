@@ -14,19 +14,23 @@ public class Star {
             }
             for (int j = n; j >i ; j--) {
                 if(j>=i+2){
-                System.out.print(value+"  "+"*");
+               // System.out.print(value+"\t"+"*");
+                System.out.printf("%-3d*",value);
                 value++;}
                 if(j==i+2){
-                System.out.print(value+"   ");
+              //  System.out.print(value+"\t");
+                    System.out.printf("%-3d",value);
                 value++;}
                 if(i==n-1){
-                    System.out.print(value+"  ");
+                   // System.out.print(value+"\t");
+                    System.out.printf("%-3d",value);
                 value++;}
 
             }
 
             for (int q = n; q >i ; q--) {
-                System.out.print("*"+s+"  ");
+               // System.out.printf("*"+s+"\t");
+                System.out.printf("*%-3d",s);
                 s++;
             }
             copy-=temp;
